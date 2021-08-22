@@ -1,0 +1,107 @@
+    /* * {
+        border: 1px solid teal;
+    } */
+
+    body {
+        background-color: #f5f5f5;
+        margin-top: 8%;
+        color: #5d5d5d;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2.45em;
+        letter-spacing: 0.04em;
+        font-weight: 700;
+        color: #5d5d5d;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .warning {
+        color:#ffcc33;
+        fill:#ffcc33;
+    }
+
+    .icon-large {
+        height: 132px;
+        width: 132px;
+    }
+
+    .description-text {
+        color: #707070;
+        letter-spacing: 0.02em;
+        font-size: 1.25em;
+        line-height: 20px;
+    }
+
+    .description-text > p {
+        margin: 10px;
+    }
+
+    /* footer CSS */
+    .footer {
+        display: inline-flex;
+        margin-top: 20px;
+    }
+
+    strong {
+        display: inline-flex;
+        color: #707070;
+        /* font-family: 'Courier New', Courier, monospace; */
+        font-size: 1em;
+    }
+
+    .icon-mail {
+        width: 1em;
+        height: 1em;
+    }
+
+    svg {
+        display: inline-flex;
+        margin-left: 4px;
+        margin-top: -1px;
+    }
+
+    a:link, a:visited {
+        color: rgb(20, 22, 24);
+    }
+
+    .footer:hover {
+        border-bottom: 1.5px solid seagreen;
+    }
+
+    a {
+        display: inline-flex;
+        align-items: center;
+        text-decoration-line: none;
+    }
+
+    /* Animation CSS */
+    .animated {
+        -webkit-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-fill-mode: both;
+        animation-fill-mode: both;
+    }
+
+    .fadeIn {
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+    }
+
+    .delay-1s {
+        -webkit-animation-delay: 1s;
+        animation-delay: 1s;
+    }
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
