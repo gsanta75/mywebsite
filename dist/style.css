@@ -25,6 +25,7 @@ body {
 h1 {
     margin: 10px 0 10px 0;
     font-size: 2.3em;
+    letter-spacing: 0.02em;
 }
 
 .description-text > p {
