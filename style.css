@@ -5,6 +5,7 @@
 body {
     color: #5d5d5d;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.08em;
 }
 
 .container {
@@ -25,46 +26,40 @@ body {
 h1 {
     margin: 10px 0 10px 0;
     font-size: 2.3em;
-    letter-spacing: 0.02em;
 }
 
 .description-text > p {
     margin: 0px 0 10px 0;
     font-size: 1em;
-    letter-spacing: 0.02em;
-}
-
-.footer {
-    display: inline-flex;
 }
 
 strong {
     display: inline-flex;
+    align-items: center;
+    line-height: 1;
     font-size: 1em;
 }
 
 .icon-mail {
-    width: 1em;
-    height: 1em;
-}
-
-svg {
     display: inline-flex;
     margin-left: 4px;
-    margin-top: -1px;
+}
+
+.icon-mail svg {
+    width: 1em;
+    height: 1em;
+    fill: currentColor;
 }
 
 a:link, a:visited {
     color: #5d5d5d;
 }
 
-.footer:hover {
+a:hover {
     border-bottom: 1.8px solid #ffcc33;
 }
 
 a {
-    display: inline-flex;
-    align-items: center;
     text-decoration-line: none;
 }
 
